@@ -1,0 +1,17 @@
+{
+  "name": "electron_spk",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "exe": "npx electron-packager . --icon=logo.ico --platform=win32"
+  },
+  "devDependencies": {
+    "electron": "^25.3.2"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.1",
+    "read-excel-file": "^5.6.1"
+  }
+}
